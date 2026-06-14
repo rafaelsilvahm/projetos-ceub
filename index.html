@@ -203,68 +203,26 @@
 
         /* Grid de Projetos */
 
-        .projetos-grid {
+        <div class="project-card"> <div class="project-image">
+    <img src="foto-do-projeto.png" alt="Demonstração do meu projeto">
+  </div>
 
-            display: grid;
-
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
-            gap: 1.5rem;
-
-        }
-
-
-        .projeto-card {
-
-            border: 1px solid #e0e0e0;
-
-            border-radius: 8px;
-
-            padding: 1.5rem;
-
-            transition: transform 0.3s, box-shadow 0.3s;
-
-        }
-
-
-        .projeto-card:hover {
-
-            transform: translateY(-5px);
-
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-
-        }
-
-
-        .projeto-card h4 {
-
-            color: #2c3e50;
-
-            margin-bottom: 0.5rem;
-
-        }
-
-
-        .projeto-card a {
-
-            display: inline-block;
-
-            margin-top: 1rem;
-
-            color: #3498db;
-
-            text-decoration: none;
-
-            font-weight: bold;
-
-        }
-
-
-        .projeto-card a:hover {
-
-            text-decoration: underline;
-
-        }
+  <div class="project-info">
+    <h3>Nome do Seu Projeto</h3>
+    <p>Escreva aqui uma breve descrição sobre o que os meu projetos atuais, e quais tecnologias utilizam!</p>
+    
+    <div class="tech-tags">
+      <span>JavaScript</span>
+      <span>HTML5</span>
+      <span>CSS3</span>
+    </div>
+    
+    <div class="project-links">
+      <a href="https://github.com/... " target="_blank" class="btn btn-github">GitHub</a>
+      <a href="#" target="_blank" class="btn btn-demo">Live Demo</a>
+    </div>
+  </div>
+  </div>
 
 
         /* Rodapé */
@@ -347,36 +305,56 @@
 
             <h3>Sobre Mim</h3>
 
-            <p>Sou um profissional apaixonado por tecnologia e design, começando agora a minha jornada na área de tecnologia. Esse projeto no Github Pages é um passo nessa jornada, iniciando uma jornada de aprendizado de extrema importância para a minha trajetória profissional.</p>
+            <p>Sou um profissional apaixonado por tecnologia e design, começando agora a minha jornada na área de tecnologia. Esse projeto no Github Pages é um passo nessa jornada, iniciando uma jornada de aprendizado de extrema importância para a minha trajetória profissional. Nessa página, estarão os meus principais projetos, conhecimentos, e formas de contato. Atualmente, os projetos estão sendo desenvolvidos em HTML e em linguagem C.</p>
 
         </section>
 
 
-        <section id="projetos">
-
+        <<section id="projetos">
             <h3>Meus Projetos</h3>
+            
+            <div class="projects-grid">
 
-            <div class="projetos-grid">
-
-                <div class="projeto-card">
-
-                    <h4>Projeto 1</h4>
-
-                    <p>Website introdutório de Bootcamp I no Github Pages.</p>
-
-                    <a href="#"></a>
-
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="html-preview.png" alt="Demonstração do site de Bootcamp">
+                    </div>
+                    <div class="project-info">
+                        <h4>Website Introdutório</h4>
+                        <p class="project-description">Website institucional responsivo desenvolvido como projeto prático do Bootcamp I, focado na estruturação semântica e publicação via GitHub Pages.</p>
+                        
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>GitHub Pages</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/rafaelsilvahm" target="_blank" class="btn btn-github">GitHub</a>
+                            <a href="#" target="_blank" class="btn btn-demo">Live Demo</a>
+                        </div>
+                    </div>
                 </div>
-             <div class="projetos-grid">
 
-                <div class="projeto-card">
-
-                    <h4>Projeto 1</h4>
-
-                    <p>Código sequência de Fibonacci em linguagem C.</p>
-
-                    <a href="#"></a>
-
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="c-preview.png" alt="Demonstração do código em C">
+                    </div>
+                    <div class="project-info">
+                        <h4>Sequência de Fibonacci em C</h4>
+                        <p class="project-description">Algoritmo em linguagem C desenvolvido para calcular e exibir a sequência matemática de Fibonacci, aplicando conceitos de estruturas de repetição e lógica de programação.</p>
+                        
+                        <div class="tech-tags">
+                            <span>Linguagem C</span>
+                            <span>Lógica</span>
+                            <span>Algoritmos</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/rafaelsilvahm" target="_blank" class="btn btn-github">GitHub</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
