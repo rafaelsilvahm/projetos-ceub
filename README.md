@@ -12,3 +12,7 @@ Nesse projeto, desenvolvido com os meus aprendizados na matéria de lógica de p
 ## Ciência da Computação - UniCEUB (2026-2030)
 - [UniCEUB](https://www.uniceub.br/)
 
+# Contato
+## E-mail : rafael.msilva@sempreceub.com
+## Linkedin :
+- [LinkedIn](https://www.linkedin.com/in/rafael-silva-92b063403/)
