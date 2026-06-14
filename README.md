@@ -5,8 +5,9 @@ Projetos acadêmicos de programação e lógica computacional. Nesta área, ser�
 Sob primeira análise, o projeto foi criado para a matéria Bootcamp I, e foi utilizado para a introdução do meu perfil do Github, sendo o principal local para a minha introdução profissional e pessoal, e apresentação das minhas hard skills e soft skills. 
 - [Repositório Github](https://github.com/rafaelsilvahm/projetos-ceub)
 
-## 2 - Código de repetição da sequência de Fibonacci em linguagem C (sequenciadefibonaccilp.c)
+## 2 - Código de repetição da sequência de Fibonacci em linguagem C 
 Nesse projeto, desenvolvido com os meus aprendizados na matéria de lógica de programação, são utilizadas diversas estruturas de condição e repetição, além de estruturas de procedimento, para a criação de um algoritmo simples, que mostra ao usuário a sucessão númerica infinita, na qual os dois números anteriores, somados, formam o número subsequente.
+- [Arquivo de Projeto](https://github.com/rafaelsilvahm/projetos-ceub/blob/main/sequenciadefibonaccilp.c)
 # Experiência Acadêmica 
 ## Ciência da Computação - UniCEUB (2026-2030)
 - [UniCEUB](https://www.uniceub.br/)
